@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1846537278162264
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4238792903077312}
+  - component: {fileID: 114181229364525954}
+  - component: {fileID: 114455522296665180}
+  - component: {fileID: 114444140950163852}
+  - component: {fileID: 7945213243996587975}
+  m_Layer: 0
+  m_Name: GameManagers
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4238792903077312
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1846537278162264}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114181229364525954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1846537278162264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20a516e86d95b3843b989af9fba3432a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  solidLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  PixelCameraFollower: {fileID: 0}
+  miniPixelCameraFollower: {fileID: 0}
+  popupPrefab: {fileID: 114377333858676844, guid: 9fcb1840de668b24889f8a10eb14d222,
+    type: 3}
+--- !u!114 &114455522296665180
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1846537278162264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c2400a206c82ca4ca66ccfc71be9760, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114444140950163852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1846537278162264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8bddba4183fb2348927a39369b65edc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _playerAxisPrefix: Player
+  _maxNumberOfPlayers: 1
+  _fireAxis: Fire
+  _speedUpAxis: SpeedUp
+  _displacementSkill: DisplacementSkill
+  _firstSkill: FirstSkill
+  _secondSkill: SecondSkill
+  _thirdSkill: ThirdSkill
+  _rollAxis: Roll
+  _interactAxis: Interact
+  _moveXAxis: Horizontal
+  _moveYAxis: Vertical
+--- !u!114 &7945213243996587975
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1846537278162264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a90d74dd9a5d4458859f0e7789c1e2aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlayerSwordDebug: {fileID: 1606928755910802, guid: f6a69604d5756f74bb39acb109885c6f,
+    type: 3}

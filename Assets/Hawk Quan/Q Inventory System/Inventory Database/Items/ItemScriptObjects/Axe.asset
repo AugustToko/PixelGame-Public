@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 720f6889561ad064583407d6b1caf8ed, type: 3}
+  m_Name: Axe
+  m_EditorClassIdentifier: 
+  itemName: Axe
+  ID: 4
+  icon: {fileID: 21300318, guid: bddecc020f6bf0445b97e3d1be62d39c, type: 3}
+  m_object: {fileID: 1195707725122680, guid: 67660d9d86e704a46ba98f21661130a0, type: 2}
+  isStackable: 0
+  maxStackNumber: 1
+  description: powful
+  variety: 1
+  rarity: 1
+  buy_Price:
+  - currency: {fileID: 11400000, guid: 5f12ed0a62a332a40a42edbc60709d63, type: 2}
+    amount: 5
+  sell_Price:
+  - currency: {fileID: 11400000, guid: 5f12ed0a62a332a40a42edbc60709d63, type: 2}
+    amount: 3
+  clipOnUse: {fileID: 0}
+  playClipTimes: 0
+  coolDown: 0
+  consumableItemType: 0
+  consumableItemAttributes: []
+  useOnPickUp: 0
+  CDAllThisWhenUse: 0
+  CDAllConsumbleWhenUse: 0
+  equipmentPart: 1
+  equipmentItemAttributes:
+  - equipmentItemAttribute: {fileID: 11400000, guid: ff31e49a58bd0214da32d49f7e3a2891,
+      type: 2}
+    effectType: 2
+    value: 20

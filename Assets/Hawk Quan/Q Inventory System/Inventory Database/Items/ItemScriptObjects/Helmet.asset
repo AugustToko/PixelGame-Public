@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 720f6889561ad064583407d6b1caf8ed, type: 3}
+  m_Name: Helmet
+  m_EditorClassIdentifier: 
+  itemName: Helmet
+  ID: 10
+  icon: {fileID: 21300324, guid: bddecc020f6bf0445b97e3d1be62d39c, type: 3}
+  m_object: {fileID: 1647095692604624, guid: 1ab704b30edc1304aa079478edf39a91, type: 2}
+  isStackable: 0
+  maxStackNumber: 1
+  description: Better than nothing
+  variety: 1
+  rarity: 2
+  buy_Price:
+  - currency: {fileID: 11400000, guid: 5f12ed0a62a332a40a42edbc60709d63, type: 2}
+    amount: 8
+  - currency: {fileID: 11400000, guid: 62a53d33c4fe1f64b83e22fbb921327e, type: 2}
+    amount: 2
+  sell_Price:
+  - currency: {fileID: 11400000, guid: 5f12ed0a62a332a40a42edbc60709d63, type: 2}
+    amount: 3
+  clipOnUse: {fileID: 0}
+  playClipTimes: 0
+  coolDown: 0
+  consumableItemType: 0
+  consumableItemAttributes: []
+  useOnPickUp: 0
+  CDAllThisWhenUse: 0
+  CDAllConsumbleWhenUse: 0
+  equipmentPart: 4
+  equipmentItemAttributes:
+  - equipmentItemAttribute: {fileID: 11400000, guid: e4b3c5835d18ac94697e4dbdcc28a824,
+      type: 2}
+    effectType: 2
+    value: 50

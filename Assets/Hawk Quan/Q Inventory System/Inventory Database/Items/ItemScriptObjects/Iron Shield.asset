@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 720f6889561ad064583407d6b1caf8ed, type: 3}
+  m_Name: Iron Shield
+  m_EditorClassIdentifier: 
+  itemName: Iron Shield
+  ID: 7
+  icon: {fileID: 21300008, guid: 9c2c642c47b2fc344ab143e21aedaca9, type: 3}
+  m_object: {fileID: 1690606949697172, guid: 6d944356cb86f4545890c98721062cbc, type: 2}
+  isStackable: 0
+  maxStackNumber: 1
+  description: Look much more reliable than the wooden one
+  variety: 1
+  rarity: 3
+  buy_Price:
+  - currency: {fileID: 11400000, guid: 5f12ed0a62a332a40a42edbc60709d63, type: 2}
+    amount: 10
+  - currency: {fileID: 11400000, guid: 62a53d33c4fe1f64b83e22fbb921327e, type: 2}
+    amount: 8
+  sell_Price:
+  - currency: {fileID: 11400000, guid: 5f12ed0a62a332a40a42edbc60709d63, type: 2}
+    amount: 5
+  - currency: {fileID: 11400000, guid: 62a53d33c4fe1f64b83e22fbb921327e, type: 2}
+    amount: 4
+  clipOnUse: {fileID: 0}
+  playClipTimes: 0
+  coolDown: 0
+  consumableItemType: 0
+  consumableItemAttributes: []
+  useOnPickUp: 0
+  CDAllThisWhenUse: 0
+  CDAllConsumbleWhenUse: 0
+  equipmentPart: 2
+  equipmentItemAttributes:
+  - equipmentItemAttribute: {fileID: 11400000, guid: e4b3c5835d18ac94697e4dbdcc28a824,
+      type: 2}
+    effectType: 2
+    value: 50
+  - equipmentItemAttribute: {fileID: 11400000, guid: ff31e49a58bd0214da32d49f7e3a2891,
+      type: 2}
+    effectType: 2
+    value: 20

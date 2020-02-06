@@ -1,0 +1,189 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!128 &12800000
+Font:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: AmmoNumbers
+  serializedVersion: 5
+  m_LineSpacing: 0.1
+  m_DefaultMaterial: {fileID: 2100000, guid: eb6d05e669800f746a0abadf40ed6c71, type: 2}
+  m_FontSize: 0
+  m_Texture: {fileID: 0}
+  m_AsciiStartOffset: 0
+  m_Tracking: 1
+  m_CharacterSpacing: 0
+  m_CharacterPadding: 1
+  m_ConvertCase: 0
+  m_CharacterRects:
+  - serializedVersion: 2
+    index: 48
+    uv:
+      serializedVersion: 2
+      x: 0.8666667
+      y: 0.3
+      width: 0.06666667
+      height: 0.4
+    vert:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 6
+      height: -8
+    advance: 7
+    flipped: 0
+  - serializedVersion: 2
+    index: 49
+    uv:
+      serializedVersion: 2
+      x: 0.044444446
+      y: 0.3
+      width: 0.06666667
+      height: 0.4
+    vert:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 6
+      height: -8
+    advance: 7
+    flipped: 0
+  - serializedVersion: 2
+    index: 50
+    uv:
+      serializedVersion: 2
+      x: 0.13333334
+      y: 0.3
+      width: 0.06666667
+      height: 0.4
+    vert:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 6
+      height: -8
+    advance: 7
+    flipped: 0
+  - serializedVersion: 2
+    index: 51
+    uv:
+      serializedVersion: 2
+      x: 0.22222222
+      y: 0.3
+      width: 0.06666667
+      height: 0.4
+    vert:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 6
+      height: -8
+    advance: 7
+    flipped: 0
+  - serializedVersion: 2
+    index: 52
+    uv:
+      serializedVersion: 2
+      x: 0.31111112
+      y: 0.3
+      width: 0.08888889
+      height: 0.4
+    vert:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 8
+      height: -8
+    advance: 9
+    flipped: 0
+  - serializedVersion: 2
+    index: 53
+    uv:
+      serializedVersion: 2
+      x: 0.42222223
+      y: 0.3
+      width: 0.06666667
+      height: 0.4
+    vert:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 6
+      height: -8
+    advance: 7
+    flipped: 0
+  - serializedVersion: 2
+    index: 54
+    uv:
+      serializedVersion: 2
+      x: 0.51111114
+      y: 0.3
+      width: 0.06666667
+      height: 0.4
+    vert:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 6
+      height: -8
+    advance: 7
+    flipped: 0
+  - serializedVersion: 2
+    index: 55
+    uv:
+      serializedVersion: 2
+      x: 0.6
+      y: 0.3
+      width: 0.06666667
+      height: 0.4
+    vert:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 6
+      height: -8
+    advance: 7
+    flipped: 0
+  - serializedVersion: 2
+    index: 56
+    uv:
+      serializedVersion: 2
+      x: 0.6888889
+      y: 0.3
+      width: 0.06666667
+      height: 0.4
+    vert:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 6
+      height: -8
+    advance: 7
+    flipped: 0
+  - serializedVersion: 2
+    index: 57
+    uv:
+      serializedVersion: 2
+      x: 0.7777778
+      y: 0.3
+      width: 0.06666667
+      height: 0.4
+    vert:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 6
+      height: -8
+    advance: 7
+    flipped: 0
+  m_KerningValues: []
+  m_PixelScale: 0.1
+  m_FontData: 
+  m_Ascent: 0
+  m_Descent: 0
+  m_DefaultStyle: 0
+  m_FontNames: []
+  m_FallbackFonts: []
+  m_FontRenderingMode: 0
+  m_UseLegacyBoundsCalculation: 0

@@ -1,0 +1,1138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>latest</LangVersion>
+    <_TargetFrameworkDirectories>non_empty_path_generated_by_unity.rider.package</_TargetFrameworkDirectories>
+    <_FullFrameworkReferenceAssemblyPaths>non_empty_path_generated_by_unity.rider.package</_FullFrameworkReferenceAssemblyPaths>
+    <DisableHandlePackageFileConflicts>true</DisableHandlePackageFileConflicts>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{7BDA09FE-8F7E-B5C4-4118-B19304F27170}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>.</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_2019_3_0;UNITY_2019_3;UNITY_2019;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;PLATFORM_STANDALONE;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_4_6;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;UNITY_POST_PROCESSING_STACK_V2;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoConfig>true</NoConfig>
+    <NoStdLib>true</NoStdLib>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+    <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
+    <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="UnityEngine">
+      <HintPath>D:\Program Files\2019.3.0f6\Editor\Data\Managed/UnityEngine/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>D:\Program Files\2019.3.0f6\Editor\Data\Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Hawk Quan\Q Inventory System\Example\3D\Scripts\CameraControl.cs" />
+     <Compile Include="Assets\Hawk Quan\Q Inventory System\Example\3D\Scripts\Motor.cs" />
+     <Compile Include="Assets\Hawk Quan\Q Inventory System\Scripts\AddItem.cs" />
+     <Compile Include="Assets\Hawk Quan\Q Inventory System\Scripts\Attribute\ItemAttribute.cs" />
+     <Compile Include="Assets\Hawk Quan\Q Inventory System\Scripts\Craft\Category.cs" />
+     <Compile Include="Assets\Hawk Quan\Q Inventory System\Scripts\Craft\CraftTrigger.cs" />
+     <Compile Include="Assets\Hawk Quan\Q Inventory System\Scripts\Craft\Crafting.cs" />
+     <Compile Include="Assets\Hawk Quan\Q Inventory System\Scripts\Craft\CraftingBluePrint.cs" />
+     <Compile Include="Assets\Hawk Quan\Q Inventory System\Scripts\Craft\InputFieldForCrafting.cs" />
+     <Compile Include="Assets\Hawk Quan\Q Inventory System\Scripts\Currency\Currency.cs" />
+     <Compile Include="Assets\Hawk Quan\Q Inventory System\Scripts\Custom Class\BluePrintToAdd.cs" />
+     <Compile Include="Assets\Hawk Quan\Q Inventory System\Scripts\Custom Class\ConsumableAttribute.cs" />
+     <Compile Include="Assets\Hawk Quan\Q Inventory System\Scripts\Custom Class\CoolDown.cs" />
+     <Compile Include="Assets\Hawk Quan\Q Inventory System\Scripts\Custom Class\EquipmentAttribute.cs" />
+     <Compile Include="Assets\Hawk Quan\Q Inventory System\Scripts\Custom Class\Ingredient.cs" />
+     <Compile Include="Assets\Hawk Quan\Q Inventory System\Scripts\Custom Class\InventoryUIControl.cs" />
+     <Compile Include="Assets\Hawk Quan\Q Inventory System\Scripts\Custom Class\ItemDrop.cs" />
+     <Compile Include="Assets\Hawk Quan\Q Inventory System\Scripts\Custom Class\ItemToAdd.cs" />
+     <Compile Include="Assets\Hawk Quan\Q Inventory System\Scripts\Custom Class\ItemToSell.cs" />
+     <Compile Include="Assets\Hawk Quan\Q Inventory System\Scripts\Custom Class\PlayerAttribute.cs" />
+     <Compile Include="Assets\Hawk Quan\Q Inventory System\Scripts\Custom Class\PlayerAttributeUI.cs" />
+     <Compile Include="Assets\Hawk Quan\Q Inventory System\Scripts\Custom Class\PlayerCurrency.cs" />
+     <Compile Include="Assets\Hawk Quan\Q Inventory System\Scripts\Custom Class\Price.cs" />
+     <Compile Include="Assets\Hawk Quan\Q Inventory System\Scripts\Custom Class\Q_EquipmentPart.cs" />
+     <Compile Include="Assets\Hawk Quan\Q Inventory System\Scripts\Custom Class\Q_InventoryEnum.cs" />
+     <Compile Include="Assets\Hawk Quan\Q Inventory System\Scripts\Custom Class\SkillBarInput.cs" />
+     <Compile Include="Assets\Hawk Quan\Q Inventory System\Scripts\DontDestroy.cs" />
+     <Compile Include="Assets\Hawk Quan\Q Inventory System\Scripts\EnemyInfo.cs" />
+     <Compile Include="Assets\Hawk Quan\Q Inventory System\Scripts\Equipment\EquipmentItem.cs" />
+     <Compile Include="Assets\Hawk Quan\Q Inventory System\Scripts\Equipment\EquipmentManager.cs" />
+     <Compile Include="Assets\Hawk Quan\Q Inventory System\Scripts\Inventory\Q_Inventory.cs" />
+     <Compile Include="Assets\Hawk Quan\Q Inventory System\Scripts\InventoryManager.cs" />
+     <Compile Include="Assets\Hawk Quan\Q Inventory System\Scripts\Item\CurrencyData.cs" />
+     <Compile Include="Assets\Hawk Quan\Q Inventory System\Scripts\Item\GameObjectData.cs" />
+     <Compile Include="Assets\Hawk Quan\Q Inventory System\Scripts\Item\Item.cs" />
+     <Compile Include="Assets\Hawk Quan\Q Inventory System\Scripts\Item\ItemData.cs" />
+     <Compile Include="Assets\Hawk Quan\Q Inventory System\Scripts\Item\ItemList.cs" />
+     <Compile Include="Assets\Hawk Quan\Q Inventory System\Scripts\ItemSorting.cs" />
+     <Compile Include="Assets\Hawk Quan\Q Inventory System\Scripts\ItemSortingManager.cs" />
+     <Compile Include="Assets\Hawk Quan\Q Inventory System\Scripts\PanelTrigger.cs" />
+     <Compile Include="Assets\Hawk Quan\Q Inventory System\Scripts\PlayerInventoryManager.cs" />
+     <Compile Include="Assets\Hawk Quan\Q Inventory System\Scripts\PlayerPickUp.cs" />
+     <Compile Include="Assets\Hawk Quan\Q Inventory System\Scripts\Q_GameMaster.cs" />
+     <Compile Include="Assets\Hawk Quan\Q Inventory System\Scripts\Q_InfoManager.cs" />
+     <Compile Include="Assets\Hawk Quan\Q Inventory System\Scripts\Q_SimpleMove.cs" />
+     <Compile Include="Assets\Hawk Quan\Q Inventory System\Scripts\Save\InventorySaveData.cs" />
+     <Compile Include="Assets\Hawk Quan\Q Inventory System\Scripts\Save\LoadInventoryData.cs" />
+     <Compile Include="Assets\Hawk Quan\Q Inventory System\Scripts\SceneSwitch.cs" />
+     <Compile Include="Assets\Hawk Quan\Q Inventory System\Scripts\SkillBar\SkillBar.cs" />
+     <Compile Include="Assets\Hawk Quan\Q Inventory System\Scripts\SkillBar\SkillBarInputManager.cs" />
+     <Compile Include="Assets\Hawk Quan\Q Inventory System\Scripts\Storage\ChestDrop.cs" />
+     <Compile Include="Assets\Hawk Quan\Q Inventory System\Scripts\Storage\ChestLoot.cs" />
+     <Compile Include="Assets\Hawk Quan\Q Inventory System\Scripts\Storage\Storage.cs" />
+     <Compile Include="Assets\Hawk Quan\Q Inventory System\Scripts\UI\DropItem.cs" />
+     <Compile Include="Assets\Hawk Quan\Q Inventory System\Scripts\UI\EquipmentInventory.cs" />
+     <Compile Include="Assets\Hawk Quan\Q Inventory System\Scripts\UI\EquipmentSlot.cs" />
+     <Compile Include="Assets\Hawk Quan\Q Inventory System\Scripts\UI\Information.cs" />
+     <Compile Include="Assets\Hawk Quan\Q Inventory System\Scripts\UI\InventoryInputControl.cs" />
+     <Compile Include="Assets\Hawk Quan\Q Inventory System\Scripts\UI\ItemDrag.cs" />
+     <Compile Include="Assets\Hawk Quan\Q Inventory System\Scripts\UI\Q_InputManager.cs" />
+     <Compile Include="Assets\Hawk Quan\Q Inventory System\Scripts\UI\Q_UIDrag.cs" />
+     <Compile Include="Assets\Hawk Quan\Q Inventory System\Scripts\UI\Q_UIManager.cs" />
+     <Compile Include="Assets\Hawk Quan\Q Inventory System\Scripts\UI\Q_UIWindow.cs" />
+     <Compile Include="Assets\Hawk Quan\Q Inventory System\Scripts\UI\Slot.cs" />
+     <Compile Include="Assets\Hawk Quan\Q Inventory System\Scripts\UI\Tooltip.cs" />
+     <Compile Include="Assets\Hawk Quan\Q Inventory System\Scripts\Vendor\AddVendorItem.cs" />
+     <Compile Include="Assets\Hawk Quan\Q Inventory System\Scripts\Vendor\InputFieldForVendor.cs" />
+     <Compile Include="Assets\Hawk Quan\Q Inventory System\Scripts\Vendor\Vendor.cs" />
+     <Compile Include="Assets\Hawk Quan\Q Inventory System\Scripts\Vendor\VendorTrigger.cs" />
+     <Compile Include="Assets\PixelGameAssets\Resources\Prefabs\Actors\PennyPixel\Scripts\PhysicsObject.cs" />
+     <Compile Include="Assets\PixelGameAssets\Resources\Prefabs\Actors\PennyPixel\Scripts\PlayerPlatformerController.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\Actor\AttackAbleActor.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\Actor\Base\Actor.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\Actor\CommonPlayer.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\Actor\ControllerSys\BaseController.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\Actor\ControllerSys\EnemiesController.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\Actor\ControllerSys\PhysicalObject2DController.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\Actor\ControllerSys\PhysicalObject2DDebug.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\Actor\Enemies\Base\BaseEnemies.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\Actor\Enemies\Base\BasePlayer.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\Actor\Enemies\EnemySkeleton.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\Actor\Enemies\EnemySkeletonBoss.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\Actor\Enemies\EnemySlime.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\Actor\Enemies\Portal.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\Actor\PlayerInfo.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\Actor\SwordActor\PlayerSword.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\Actor\SwordActor\PlayerSwordHelper.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\Camera\CameraShaker.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\Camera\MinimapPixelCameraFollower.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\Camera\PixelCameraFollower.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\Core\Audio\AudioManager.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\Core\ExpManager.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\Core\GameManager.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\Core\ScoreManager.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\Core\Urp.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\Core\VManager.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\Damage\DamageOnTouch.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\Damage\Health.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\Entity\Casing.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\Entity\Cloud.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\Entity\Crate.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\Entity\InteractableEntity\AmmunitionBox.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\Entity\InteractableEntity\BulletinBoard.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\Entity\InteractableEntity\CoinPickup.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\Entity\InteractableEntity\Door.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\Entity\InteractableEntity\Interactable.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\Entity\InteractableEntity\Npc\FixedPlaceDialogNpc.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\Entity\InteractableEntity\Npc\InteractableNpc.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\Entity\InteractableEntity\Pickup\MeleePickup.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\Entity\InteractableEntity\Pickup\WeaponPickup.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\Entity\InteractableEntity\TransferPosition.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\Entity\InteractableEntity\TransferScene.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\Entity\InteractableEntity\WeaponChest.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\Entity\InteractableEntity\WoodenSign.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\Entity\ItemOnGround\HealthBottle.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\Entity\ItemOnGround\MPBottle.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\Entity\Pit.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\Entity\Spikes.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\EventManager\CallBack.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\EventManager\EventCenter.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\EventManager\EventType.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\GKUtils\FadeText.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\GKUtils\GKLog.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\GKUtils\VectorUtils.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\Helper\CalcHelper.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\Helper\PrefsHelper.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\Helper\Tips.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\InputSystem\Buttons\ChangeWeaponButton.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\InputSystem\Buttons\EventButton.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\InputSystem\Buttons\RollButton.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\InputSystem\Buttons\SpaceButton.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\InputSystem\Buttons\SpeedUpButton.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\InputSystem\IInputManager.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\InputSystem\InputAction.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\InputSystem\InputManager.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\InputSystem\UnityInputManager.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\Map\MapBuilder.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\Map\NewMap\DungeonGenerator.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\Map\NewMap\DungeonGeneratorClasses.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\Map\NewMap\PerformanceMeter.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\Map\RandomMapHelper.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\Map\TilemapLevelForest.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\Map\TilemapLevelLite.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\Misc\AnimatorEvents.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\Misc\ConstKeys.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\Misc\Crosshair.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\Misc\DonnotDestroy.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\Misc\Facings.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\Misc\GunTopDownZOrder.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\Misc\Loom.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\Misc\QMhelper.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\Misc\RenderManager.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\Misc\ResourceLoader.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\Misc\SpriteFlasher.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\Misc\TopDownSpriteZOrder.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\Misc\ZOrder.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\Network\GeekCloudUtils.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\Network\NetTest.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\Network\WebChat.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\RuneSystem\RuneType.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\RuneSystem\RuneTypes\BaseRune.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\RuneSystem\RuneTypes\HpStone.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\SceneUtils\FadeTransition.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\SceneUtils\LoadAsyncScene.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\SceneUtils\SceneUtil.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\SceneUtils\TutorialScene\TutorialSceneController.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\SkillSystem\DebugSkillImp.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\SkillSystem\Detail\CommonSkillDetail.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\SkillSystem\Detail\SkillDetail.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\SkillSystem\ISkill.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\SkillSystem\Obj\SkillEntity.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\SkillSystem\Obj\SkillLighting.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\SkillSystem\Obj\SkillProjectile.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\SkillSystem\ReleaseSkillImp.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\SkillSystem\SkillManager.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\SkillSystem\SkillPack.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\SkillSystem\SkillType.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\UI\ActionButton.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\UI\ChapterSelectionUi.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\UI\DamageNumber.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\UI\DeadUi.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\UI\Dialog.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\UI\FpsSystem.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\UI\LogoScene\LogoScene.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\UI\MainScene\CheckMusicVolume.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\UI\MainScene\CheckSFXVolume.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\UI\MainScene\MainMenuNew.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\UI\MainScene\ObsoleteScript\MainUi.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\UI\MainScene\OptionsMenuNew.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\UI\MainScene\ResetDemo.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\UI\Menu\PauseMenu.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\UI\MessageShow.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\UI\MusicSystem\MusicBar.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\UI\MusicSystem\Song.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\UI\NotificationSystem\Notification.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\UI\NotificationSystem\NotificationManager.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\UI\SceneNameShow.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\UI\SkillBar\SkillBarUi.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\UI\SkillBar\SkillBox.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\UI\SystemEventArea.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\UI\Tag\Base\BaseTag.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\UI\Tag\HpBar.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\UI\Tag\InfoBar.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\UI\Tag\Model\InfoData.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\UI\UICanvas\HealthBar.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\UI\UICanvas\UIScoreText.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\UI\UICanvas\UiManager.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\UI\UICanvas\UiMusicInfoBar.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\UI\VideoScene\VideoSceneUi.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\UI\WarningSceneCallBack.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\Unused\DEBUG.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\Unused\TilemapLevel.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\WeaponSystem\BowHelper.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\WeaponSystem\Projectile.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\WeaponSystem\Rareness.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\WeaponSystem\WeaponInfo\GunData.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\WeaponSystem\WeaponInfo\MeleeWeaponData.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\WeaponSystem\WeaponInfo\WeaponData.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\WeaponSystem\WeaponSkill\WeaponSkillDetail.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\WeaponSystem\WeaponType\GunSys\Base\Gun.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\WeaponSystem\WeaponType\GunSys\Bow.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\WeaponSystem\WeaponType\GunSys\CommonGun.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\WeaponSystem\WeaponType\GunSys\Laser.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\WeaponSystem\WeaponType\GunSys\LaserType.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\WeaponSystem\WeaponType\GunSys\Rifle.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\WeaponSystem\WeaponType\GunSys\Shotgun.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\WeaponSystem\WeaponType\MeleeSys\BigSword.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\WeaponSystem\WeaponType\MeleeSys\IMeleeAttackHelper.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\WeaponSystem\WeaponType\MeleeSys\Melee.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\WeaponSystem\WeaponType\MeleeSys\MeleeFrame.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\WeaponSystem\WeaponType\MeleeSys\Sword.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\WeaponSystem\WeaponType\MeleeSys\Sword4PlayerSword.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\WeaponSystem\WeaponType\MeleeSys\Unarmed.cs" />
+     <Compile Include="Assets\PixelGameAssets\Scripts\WeaponSystem\WeaponType\Weapon.cs" />
+     <Compile Include="Assets\PixelGameAssets\Sprites\UI\icon\FantasyIconsPackFree\Demo\IconViewer.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\Joystick Pack\Examples\JoystickPlayerExample.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\Joystick Pack\Examples\JoystickSetterExample.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\Joystick Pack\Scripts\Base\Joystick.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\Joystick Pack\Scripts\Joysticks\DynamicJoystick.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\Joystick Pack\Scripts\Joysticks\FixedJoystick.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\Joystick Pack\Scripts\Joysticks\FloatingJoystick.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\Joystick Pack\Scripts\Joysticks\VariableJoystick.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\MonsterLove\StateMachine\StateMachine.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\MonsterLove\StateMachine\StateMachineRunner.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\Ocias\PixelArtCamera\Example\CameraPan.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\Ocias\PixelArtCamera\Example\RandomRotate.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\Ocias\PixelArtCamera\Example\SixtyFPS.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\Ocias\PixelArtCamera\Example\TileSpin.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\Ocias\PixelArtCamera\PixelArtCamera.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\PixelWeatherFX\Scripts\FadeLight.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\PixelWeatherFX\Scripts\ParticleManager.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\PixelWeatherFX\Scripts\RotateObject.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\PixelWeatherFX\Scripts\TranslateObject.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\SocketIO\JSONObject\JSONObject.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\SocketIO\JSONObject\JSONTemplates.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\SocketIO\JSONObject\VectorTemplates.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\SocketIO\Scripts\SocketIO\Ack.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\SocketIO\Scripts\SocketIO\Decoder.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\SocketIO\Scripts\SocketIO\Encoder.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\SocketIO\Scripts\SocketIO\EnginePacketType.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\SocketIO\Scripts\SocketIO\Packet.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\SocketIO\Scripts\SocketIO\Parser.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\SocketIO\Scripts\SocketIO\SocketIOComponent.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\SocketIO\Scripts\SocketIO\SocketIOEvent.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\SocketIO\Scripts\SocketIO\SocketIOException.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\SocketIO\Scripts\SocketIO\SocketPacketType.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\SocketIO\Scripts\Test\TestSocketIO.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\SocketIO\WebsocketSharp\AssemblyInfo.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\SocketIO\WebsocketSharp\ByteOrder.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\SocketIO\WebsocketSharp\CloseEventArgs.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\SocketIO\WebsocketSharp\CloseStatusCode.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\SocketIO\WebsocketSharp\CompressionMethod.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\SocketIO\WebsocketSharp\ErrorEventArgs.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\SocketIO\WebsocketSharp\Ext.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\SocketIO\WebsocketSharp\Fin.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\SocketIO\WebsocketSharp\HandshakeBase.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\SocketIO\WebsocketSharp\HandshakeRequest.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\SocketIO\WebsocketSharp\HandshakeResponse.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\SocketIO\WebsocketSharp\LogData.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\SocketIO\WebsocketSharp\LogLevel.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\SocketIO\WebsocketSharp\Logger.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\SocketIO\WebsocketSharp\Mask.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\SocketIO\WebsocketSharp\MessageEventArgs.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\SocketIO\WebsocketSharp\Net\AuthenticationBase.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\SocketIO\WebsocketSharp\Net\AuthenticationChallenge.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\SocketIO\WebsocketSharp\Net\AuthenticationResponse.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\SocketIO\WebsocketSharp\Net\AuthenticationSchemes.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\SocketIO\WebsocketSharp\Net\Chunk.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\SocketIO\WebsocketSharp\Net\ChunkStream.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\SocketIO\WebsocketSharp\Net\ChunkedRequestStream.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\SocketIO\WebsocketSharp\Net\Cookie.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\SocketIO\WebsocketSharp\Net\CookieCollection.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\SocketIO\WebsocketSharp\Net\CookieException.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\SocketIO\WebsocketSharp\Net\EndPointListener.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\SocketIO\WebsocketSharp\Net\EndPointManager.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\SocketIO\WebsocketSharp\Net\HttpBasicIdentity.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\SocketIO\WebsocketSharp\Net\HttpConnection.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\SocketIO\WebsocketSharp\Net\HttpDigestIdentity.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\SocketIO\WebsocketSharp\Net\HttpHeaderInfo.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\SocketIO\WebsocketSharp\Net\HttpHeaderType.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\SocketIO\WebsocketSharp\Net\HttpListener.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\SocketIO\WebsocketSharp\Net\HttpListenerContext.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\SocketIO\WebsocketSharp\Net\HttpListenerException.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\SocketIO\WebsocketSharp\Net\HttpListenerPrefixCollection.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\SocketIO\WebsocketSharp\Net\HttpListenerRequest.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\SocketIO\WebsocketSharp\Net\HttpListenerResponse.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\SocketIO\WebsocketSharp\Net\HttpStatusCode.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\SocketIO\WebsocketSharp\Net\HttpStreamAsyncResult.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\SocketIO\WebsocketSharp\Net\HttpUtility.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\SocketIO\WebsocketSharp\Net\HttpVersion.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\SocketIO\WebsocketSharp\Net\InputChunkState.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\SocketIO\WebsocketSharp\Net\InputState.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\SocketIO\WebsocketSharp\Net\LineState.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\SocketIO\WebsocketSharp\Net\ListenerAsyncResult.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\SocketIO\WebsocketSharp\Net\ListenerPrefix.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\SocketIO\WebsocketSharp\Net\NetworkCredential.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\SocketIO\WebsocketSharp\Net\QueryStringCollection.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\SocketIO\WebsocketSharp\Net\ReadBufferState.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\SocketIO\WebsocketSharp\Net\RequestStream.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\SocketIO\WebsocketSharp\Net\ResponseStream.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\SocketIO\WebsocketSharp\Net\Security\SslStream.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\SocketIO\WebsocketSharp\Net\WebHeaderCollection.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\SocketIO\WebsocketSharp\Net\WebSockets\HttpListenerWebSocketContext.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\SocketIO\WebsocketSharp\Net\WebSockets\TcpListenerWebSocketContext.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\SocketIO\WebsocketSharp\Net\WebSockets\WebSocketContext.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\SocketIO\WebsocketSharp\Opcode.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\SocketIO\WebsocketSharp\PayloadData.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\SocketIO\WebsocketSharp\Rsv.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\SocketIO\WebsocketSharp\WebSocket.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\SocketIO\WebsocketSharp\WebSocketException.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\SocketIO\WebsocketSharp\WebSocketFrame.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\SocketIO\WebsocketSharp\WebSocketState.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\SocketIO\WebsocketSharp\WebSocketStream.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\TextMesh Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\TextMesh Pro\Examples &amp; Extras\Scripts\TextConsoleSimulator.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\Tilemap\Brushes\Tint Brush Smooth\Scripts\TintTextureGenerator.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\Tilemap\GridInformation\Scripts\GridInformation.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\Tilemap\Tiles\Animated Tile\Scripts\AnimatedTile.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\Tilemap\Tiles\Pipeline Tile\Scripts\PipelineTile.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\Tilemap\Tiles\Random Tile\Scripts\RandomTile.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\Tilemap\Tiles\Rule Tile\Scripts\RuleTile.cs" />
+     <Compile Include="Assets\PixelGameAssets\Third-Party\Tilemap\Tiles\Terrain Tile\Scripts\TerrainTile.cs" />
+     <Compile Include="Assets\ThirdParty\Simple Health Bar\Scripts\SimpleHealthBar.cs" />
+     <Compile Include="Assets\ThirdParty\Simple Health Bar\_Asteroids Example\Scripts\AsteroidController.cs" />
+     <Compile Include="Assets\ThirdParty\Simple Health Bar\_Asteroids Example\Scripts\GameManager.cs" />
+     <Compile Include="Assets\ThirdParty\Simple Health Bar\_Asteroids Example\Scripts\HealthPickupController.cs" />
+     <Compile Include="Assets\ThirdParty\Simple Health Bar\_Asteroids Example\Scripts\PlayerController.cs" />
+     <Compile Include="Assets\ThirdParty\Simple Health Bar\_Asteroids Example\Scripts\PlayerHealth.cs" />
+     <Compile Include="Assets\ThirdParty\Super-Blur-master\SuperBlur\Core\SuperBlurBase.cs" />
+     <Compile Include="Assets\ThirdParty\Super-Blur-master\SuperBlur\SuperBlur.cs" />
+     <Compile Include="Assets\ThirdParty\Super-Blur-master\SuperBlur\SuperBlurFast.cs" />
+     <None Include="Assets\PixelGameAssets\Third-Party\Ocias\PixelArtCamera\README.txt" />
+     <None Include="Assets\PixelGameAssets\Third-Party\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
+     <None Include="Assets\PixelGameAssets\Third-Party\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
+     <None Include="Assets\ThirdParty\Simple Health Bar\README.txt" />
+     <None Include="Assets\PixelGameAssets\Third-Party\Ocias\PixelArtCamera\PixelArtSpriteDiffuse.shader" />
+     <None Include="Assets\PixelGameAssets\Third-Party\Ocias\PixelArtCamera\PixelArtDiffuse.shader" />
+     <None Include="Assets\PixelGameAssets\Shaders\ChannelNoise.shader" />
+     <None Include="Assets\PixelGameAssets\Third-Party\Ocias\PixelArtCamera\PixelArtFont.shader" />
+     <None Include="Assets\PixelGameAssets\Third-Party\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
+     <None Include="Assets\PixelGameAssets\Third-Party\Ocias\PixelArtCamera\BilinearSharp.shader" />
+     <None Include="Assets\PixelGameAssets\Third-Party\TextMesh Pro\Examples &amp; Extras\Fonts\Oswald-Bold - OFL.txt" />
+     <None Include="Assets\Hawk Quan\Q Inventory System\ReadMe.txt" />
+     <None Include="Assets\PixelGameAssets\Third-Party\TextMesh Pro\Examples &amp; Extras\Fonts\Anton OFL.txt" />
+     <None Include="Assets\PixelGameAssets\Third-Party\SocketIO\JSONObject\readme.txt" />
+     <None Include="Assets\ThirdParty\FreePixelGear\ReadMe.txt" />
+     <None Include="Assets\PixelGameAssets\Third-Party\Ocias\PixelArtCamera\PixelArtSprite.shader" />
+     <None Include="Assets\PixelGameAssets\Sprites\UI\icon\Tiny Fantasy Icons\README.txt" />
+     <None Include="Assets\PixelGameAssets\Shaders\LaserBeam.shader" />
+     <None Include="Assets\PixelGameAssets\Third-Party\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
+     <None Include="Assets\PixelGameAssets\Third-Party\SocketIO\Readme.txt" />
+     <None Include="Assets\PixelGameAssets\Third-Party\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
+     <None Include="Assets\PixelGameAssets\Third-Party\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+     <None Include="Assets\PixelGameAssets\Third-Party\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+     <None Include="Assets\PixelGameAssets\Third-Party\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
+     <None Include="Assets\PixelGameAssets\Third-Party\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+     <None Include="Assets\PixelGameAssets\Resources\Sounds\FX\节拍战士：念\版权说明.txt" />
+     <None Include="Assets\PixelGameAssets\Third-Party\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
+     <None Include="Assets\Hawk Quan\Q Inventory System\用户必读.txt" />
+     <None Include="Assets\PixelGameAssets\Third-Party\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
+     <None Include="Assets\PixelGameAssets\Third-Party\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+     <None Include="Assets\PixelGameAssets\Shaders\b1.shader" />
+     <None Include="Assets\PixelGameAssets\Third-Party\Ocias\PixelArtCamera\PixelArtUI.shader" />
+     <None Include="Assets\PixelGameAssets\Shaders\DiffuseFlash.shader" />
+     <None Include="Assets\PixelGameAssets\Third-Party\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
+     <None Include="Assets\ThirdParty\Super-Blur-master\SuperBlur\Shader\SuperBlurPostEffect.shader" />
+     <None Include="Assets\PixelGameAssets\Third-Party\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
+     <None Include="Assets\DANKIE\Ultimate2DWeaponPacks\Ultimate2DModernWeapons\Volume1 - Warfare Weapons\Readme_DANKIE.txt" />
+     <None Include="Assets\PixelGameAssets\Sprites\UI\icon\SpellBookPreface\ReadMe.txt" />
+     <None Include="Assets\PixelGameAssets\Third-Party\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
+     <None Include="Assets\PixelGameAssets\Third-Party\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+     <None Include="Assets\PixelGameAssets\Third-Party\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
+     <None Include="Assets\PixelGameAssets\Fonts\yahei\ch.txt" />
+     <None Include="Assets\PixelGameAssets\Third-Party\Tilemap\Brushes\Tint Brush Smooth\Shaders\TintedTilemap.shader" />
+     <None Include="Assets\ThirdParty\Super-Blur-master\SuperBlur\Shader\SuperBlurUI.shader" />
+     <None Include="Assets\PixelGameAssets\Third-Party\Ocias\PixelArtCamera\PixelArtParticle.shader" />
+     <None Include="Assets\PixelGameAssets\Third-Party\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
+     <None Include="Assets\PixelGameAssets\Third-Party\TextMesh Pro\Examples &amp; Extras\Fonts\Bangers - OFL.txt" />
+ <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
+ <HintPath>D:/Unity/PixelGame/Library/ScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Timeline.Editor">
+ <HintPath>D:/Unity/PixelGame/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.2D.Animation.Runtime">
+ <HintPath>D:/Unity/PixelGame/Library/ScriptAssemblies/Unity.2D.Animation.Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.RenderPipelines.Universal.Shaders">
+ <HintPath>D:/Unity/PixelGame/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.RenderPipelines.Core.Editor">
+ <HintPath>D:/Unity/PixelGame/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.RenderPipelines.Core.Runtime">
+ <HintPath>D:/Unity/PixelGame/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.TextMeshPro.Editor">
+ <HintPath>D:/Unity/PixelGame/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.RenderPipelines.Universal.Runtime">
+ <HintPath>D:/Unity/PixelGame/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.RenderPipelines.Universal.Editor">
+ <HintPath>D:/Unity/PixelGame/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>D:/Unity/PixelGame/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Timeline">
+ <HintPath>D:/Unity/PixelGame/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.2D.Animation.Triangle.Runtime">
+ <HintPath>D:/Unity/PixelGame/Library/ScriptAssemblies/Unity.2D.Animation.Triangle.Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.CollabProxy.Editor">
+ <HintPath>D:/Unity/PixelGame/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Postprocessing.Editor">
+ <HintPath>D:/Unity/PixelGame/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Rider.Editor">
+ <HintPath>D:/Unity/PixelGame/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
+ <HintPath>D:/Unity/PixelGame/Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Mathematics">
+ <HintPath>D:/Unity/PixelGame/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.InternalAPIEngineBridge.001">
+ <HintPath>D:/Unity/PixelGame/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.2D.Sprite.Editor">
+ <HintPath>D:/Unity/PixelGame/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Cloud.UserReporting.Editor">
+ <HintPath>D:/Unity/PixelGame/Library/ScriptAssemblies/Unity.Cloud.UserReporting.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.2D.Common.Runtime">
+ <HintPath>D:/Unity/PixelGame/Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Postprocessing.Runtime">
+ <HintPath>D:/Unity/PixelGame/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.2D.Tilemap.Editor">
+ <HintPath>D:/Unity/PixelGame/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.2D.Animation.Editor">
+ <HintPath>D:/Unity/PixelGame/Library/ScriptAssemblies/Unity.2D.Animation.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.ShaderGraph.Editor">
+ <HintPath>D:/Unity/PixelGame/Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Mathematics.Editor">
+ <HintPath>D:/Unity/PixelGame/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
+ <HintPath>D:/Unity/PixelGame/Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.TextMeshPro">
+ <HintPath>D:/Unity/PixelGame/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.2D.Common.Editor">
+ <HintPath>D:/Unity/PixelGame/Library/ScriptAssemblies/Unity.2D.Common.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Analytics.DataPrivacy">
+ <HintPath>D:/Unity/PixelGame/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.InternalAPIEditorBridge.001">
+ <HintPath>D:/Unity/PixelGame/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.001.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UI">
+ <HintPath>D:/Unity/PixelGame/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AIModule">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ARModule">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AccessibilityModule">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AndroidJNIModule">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/Managed/UnityEngine/UnityEngine.AndroidJNIModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AnimationModule">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AssetBundleModule">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AudioModule">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ClothModule">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ClusterInputModule">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ClusterRendererModule">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.CoreModule">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.CrashReportingModule">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.DSPGraphModule">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/Managed/UnityEngine/UnityEngine.DSPGraphModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.DirectorModule">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.GameCenterModule">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.GridModule">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HotReloadModule">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/Managed/UnityEngine/UnityEngine.HotReloadModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.IMGUIModule">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ImageConversionModule">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.InputModule">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.InputLegacyModule">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/Managed/UnityEngine/UnityEngine.InputLegacyModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.JSONSerializeModule">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.LocalizationModule">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/Managed/UnityEngine/UnityEngine.LocalizationModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ParticleSystemModule">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.PerformanceReportingModule">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.PhysicsModule">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Physics2DModule">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ProfilerModule">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/Managed/UnityEngine/UnityEngine.ProfilerModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ScreenCaptureModule">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SharedInternalsModule">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SpriteMaskModule">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SpriteShapeModule">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.StreamingModule">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/Managed/UnityEngine/UnityEngine.StreamingModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SubstanceModule">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/Managed/UnityEngine/UnityEngine.SubstanceModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SubsystemsModule">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/Managed/UnityEngine/UnityEngine.SubsystemsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TLSModule">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/Managed/UnityEngine/UnityEngine.TLSModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TerrainModule">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TerrainPhysicsModule">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TextCoreModule">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TextRenderingModule">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TilemapModule">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UIModule">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UIElementsModule">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UNETModule">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/Managed/UnityEngine/UnityEngine.UNETModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UmbraModule">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/Managed/UnityEngine/UnityEngine.UmbraModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityAnalyticsModule">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityConnectModule">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityTestProtocolModule">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestModule">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VFXModule">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/Managed/UnityEngine/UnityEngine.VFXModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VRModule">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VehiclesModule">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VideoModule">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.WindModule">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.XRModule">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
+ </Reference>
+ <Reference Include="LitJSON">
+ <HintPath>D:/Unity/PixelGame/Assets/Plugins/LitJSON.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Analytics.Editor">
+ <HintPath>D:/Unity/PixelGame/Library/PackageCache/com.unity.analytics@3.3.5/Unity.Analytics.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Analytics.Tracker">
+ <HintPath>D:/Unity/PixelGame/Library/PackageCache/com.unity.analytics@3.3.5/Unity.Analytics.Tracker.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Analytics.StandardEvents">
+ <HintPath>D:/Unity/PixelGame/Library/PackageCache/com.unity.analytics@3.3.5/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
+ </Reference>
+ <Reference Include="mscorlib">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
+ </Reference>
+ <Reference Include="System">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Core">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Core.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Serialization">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Runtime.Serialization.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Xml.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.Linq">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Xml.Linq.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Numerics">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Numerics.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Numerics.Vectors">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Numerics.Vectors.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.Http">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Net.Http.dll</HintPath>
+ </Reference>
+ <Reference Include="Microsoft.CSharp">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Microsoft.CSharp.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Data">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Data.dll</HintPath>
+ </Reference>
+ <Reference Include="Microsoft.Win32.Primitives">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/Microsoft.Win32.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="netstandard">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/netstandard.dll</HintPath>
+ </Reference>
+ <Reference Include="System.AppContext">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.AppContext.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Collections.Concurrent">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.Concurrent.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Collections">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Collections.NonGeneric">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.NonGeneric.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Collections.Specialized">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.Specialized.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ComponentModel.Annotations">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.Annotations.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ComponentModel">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ComponentModel.EventBasedAsync">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.EventBasedAsync.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ComponentModel.Primitives">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ComponentModel.TypeConverter">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.TypeConverter.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Console">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Console.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Data.Common">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Data.Common.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.Contracts">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Contracts.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.Debug">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Debug.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.FileVersionInfo">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.FileVersionInfo.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.Process">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Process.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.StackTrace">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.StackTrace.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.TextWriterTraceListener">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.TextWriterTraceListener.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.Tools">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Tools.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.TraceSource">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.TraceSource.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Drawing.Primitives">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Drawing.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Dynamic.Runtime">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Dynamic.Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Globalization.Calendars">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.Calendars.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Globalization">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Globalization.Extensions">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.Compression.ZipFile">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.Compression.ZipFile.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.FileSystem">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.FileSystem.DriveInfo">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.DriveInfo.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.FileSystem.Primitives">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.FileSystem.Watcher">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.Watcher.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.IsolatedStorage">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.IsolatedStorage.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.MemoryMappedFiles">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.MemoryMappedFiles.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.Pipes">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.Pipes.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.UnmanagedMemoryStream">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.UnmanagedMemoryStream.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Linq">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Linq.Expressions">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Expressions.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Linq.Parallel">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Parallel.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Linq.Queryable">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Queryable.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.Http.Rtc">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Http.Rtc.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.NameResolution">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.NameResolution.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.NetworkInformation">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.NetworkInformation.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.Ping">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Ping.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.Primitives">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.Requests">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Requests.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.Security">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Security.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.Sockets">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Sockets.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.WebHeaderCollection">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebHeaderCollection.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.WebSockets.Client">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebSockets.Client.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.WebSockets">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebSockets.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ObjectModel">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ObjectModel.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Reflection">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Reflection.Emit">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Reflection.Emit.ILGeneration">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.ILGeneration.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Reflection.Emit.Lightweight">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.Lightweight.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Reflection.Extensions">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Reflection.Primitives">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Resources.Reader">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.Reader.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Resources.ResourceManager">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.ResourceManager.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Resources.Writer">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.Writer.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.CompilerServices.VisualC">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.CompilerServices.VisualC.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Extensions">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Handles">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Handles.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.InteropServices">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.InteropServices.WindowsRuntime">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Numerics">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Numerics.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Serialization.Formatters">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Formatters.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Serialization.Json">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Json.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Serialization.Primitives">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Serialization.Xml">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Xml.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.Claims">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Claims.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.Cryptography.Algorithms">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Algorithms.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.Cryptography.Csp">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Csp.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.Cryptography.Encoding">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Encoding.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.Cryptography.Primitives">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.Cryptography.X509Certificates">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.X509Certificates.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.Principal">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Principal.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.SecureString">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.SecureString.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ServiceModel.Duplex">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Duplex.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ServiceModel.Http">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Http.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ServiceModel.NetTcp">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.NetTcp.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ServiceModel.Primitives">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ServiceModel.Security">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Security.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Text.Encoding">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.Encoding.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Text.Encoding.Extensions">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.Encoding.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Text.RegularExpressions">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.RegularExpressions.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading.Overlapped">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Overlapped.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading.Tasks">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Tasks.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading.Tasks.Parallel">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Tasks.Parallel.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading.Thread">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Thread.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading.ThreadPool">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.ThreadPool.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading.Timer">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Timer.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ValueTuple">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ValueTuple.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.ReaderWriter">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.ReaderWriter.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.XDocument">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XDocument.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.XmlDocument">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XmlDocument.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.XmlSerializer">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XmlSerializer.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.XPath">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.XPath.XDocument">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.XDocument.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityScript">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/UnityScript.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityScript.Lang">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/UnityScript.Lang.dll</HintPath>
+ </Reference>
+ <Reference Include="Boo.Lang">
+ <HintPath>D:/Program Files/2019.3.0f6/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

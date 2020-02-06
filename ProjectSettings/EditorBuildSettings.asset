@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/PixelGameAssets/Scene/Final/OpeningScene/TestWarning.unity
+    guid: baae3e6194a142d4cac5d0f1e9840f50
+  - enabled: 1
+    path: Assets/PixelGameAssets/Scene/Final/OpeningScene/SplashScene.unity
+    guid: 59977d3254c0e4f07b82bbaef62c01fc
+  - enabled: 1
+    path: Assets/PixelGameAssets/Scene/Final/MainScene.unity
+    guid: 53e0db7c579d54f4da5d360b96be0985
+  - enabled: 1
+    path: Assets/PixelGameAssets/Scene/Final/TutorialScene.unity
+    guid: 9b10754e16795d745b0c7701ab2a4680
+  - enabled: 1
+    path: Assets/PixelGameAssets/Scene/Final/TownScene.unity
+    guid: 7f551d9cfa0908d4aa25b9e65e13b546
+  - enabled: 1
+    path: Assets/PixelGameAssets/Scene/Final/ForestScene.unity
+    guid: e855832881c974f1790b90c233489f8c
+  - enabled: 1
+    path: Assets/PixelGameAssets/Scene/Final/RandomScene.unity
+    guid: 75c55b6dc67fd7949b14e500320f7366
+  - enabled: 1
+    path: Assets/PixelGameAssets/Scene/Final/LoadingScene.unity
+    guid: ea5d120b56e484b539ca1208b32abb7d
+  m_configObjects:
+    com.unity.input.settings: {fileID: 11400000, guid: 53da3bc3654571a4a8679657d90a2d78,
+      type: 2}

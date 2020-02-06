@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Entity
+  - Enemies
+  - PlayerTag
+  - EneimeDied
+  - UI Common
+  - UI block
+  - Craft
+  - Vendor
+  - Item
+  - Inventory
+  - SkillBar
+  - Storage
+  - Weapon
+  - Equipment
+  - Enemy
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Solid
+  - Entities
+  - Pit
+  - Minimap
+  - PP
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: BG
+    uniqueID: 1590817557
+    locked: 0
+  - name: SolidsBack
+    uniqueID: 3011703131
+    locked: 0
+  - name: EntitiesSolidsBack(Unused)
+    uniqueID: 2251596647
+    locked: 0
+  - name: Casing
+    uniqueID: 3167940709
+    locked: 0
+  - name: Entities
+    uniqueID: 4011516335
+    locked: 0
+  - name: Guns
+    uniqueID: 3955126477
+    locked: 0
+  - name: SolidsFront
+    uniqueID: 2198852021
+    locked: 0
+  - name: FX
+    uniqueID: 1900314263
+    locked: 0
+  - name: UI
+    uniqueID: 1768579969
+    locked: 0

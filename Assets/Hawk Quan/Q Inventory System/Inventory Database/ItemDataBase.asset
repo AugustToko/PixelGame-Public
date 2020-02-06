@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 106842a334e7fa841bd4ec879c11d506, type: 3}
+  m_Name: ItemDataBase
+  m_EditorClassIdentifier: 
+  itemList:
+  - {fileID: 11400000, guid: b02490634a0291940b04cbe484315e12, type: 2}
+  - {fileID: 11400000, guid: db9a8871c144570419dfcf22658ee2d8, type: 2}
+  - {fileID: 11400000, guid: b60f3fa2cdb34634a82e4796d2727201, type: 2}
+  - {fileID: 11400000, guid: bcd5e3de4dccb5945b32dbd5e0bcf1d7, type: 2}
+  - {fileID: 11400000, guid: 54775833ad541534cad7ca7476ed371b, type: 2}
+  - {fileID: 11400000, guid: 0c0f917058f14974ca223f50b35b6380, type: 2}
+  - {fileID: 11400000, guid: a98b39ce03d16c744aca13c871738543, type: 2}
+  - {fileID: 11400000, guid: a25608995c4e4e64a89cbcfbb0b74ff1, type: 2}
+  - {fileID: 11400000, guid: 66886766f52759546b2b84a72779b251, type: 2}
+  - {fileID: 11400000, guid: f5cc84d0d5a5dd246807c91ea93d8109, type: 2}
+  - {fileID: 11400000, guid: a783d8f5e7558ff4193c2ed529d48238, type: 2}
+  - {fileID: 11400000, guid: aa8f5ddae8c2b2d4c8e2bc0267905e1f, type: 2}
+  currencies:
+  - {fileID: 11400000, guid: 5f12ed0a62a332a40a42edbc60709d63, type: 2}
+  - {fileID: 11400000, guid: 62a53d33c4fe1f64b83e22fbb921327e, type: 2}
+  attributes:
+  - {fileID: 11400000, guid: e4b3c5835d18ac94697e4dbdcc28a824, type: 2}
+  - {fileID: 11400000, guid: ff31e49a58bd0214da32d49f7e3a2891, type: 2}
+  bluePrints:
+  - {fileID: 11400000, guid: 8998a66d78dc85b46bbae8d202005f18, type: 2}
+  - {fileID: 11400000, guid: 3785f7b68ee207c4d9ae8e4e0361fd7d, type: 2}
+  - {fileID: 11400000, guid: b1e895dcaf36e8541a36989a1ca471e2, type: 2}
+  - {fileID: 11400000, guid: f35e2b895cf0a9c4bba909182413ca51, type: 2}
+  categories:
+  - {fileID: 11400000, guid: 2c6e5c58edc019b489e109165996a5b3, type: 2}
+  - {fileID: 11400000, guid: 0ab766da35b7b0f4d9816f43c732794f, type: 2}
+  saveData: {fileID: 11400000, guid: 3cd3b6abc368fa34980cfda135d74278, type: 2}

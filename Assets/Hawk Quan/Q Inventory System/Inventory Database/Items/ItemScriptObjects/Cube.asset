@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 720f6889561ad064583407d6b1caf8ed, type: 3}
+  m_Name: Cube
+  m_EditorClassIdentifier: 
+  itemName: Cube
+  ID: 11
+  icon: {fileID: 21300000, guid: adfed178adceb0b408fa856a21d32395, type: 3}
+  m_object: {fileID: 1140825646360118, guid: fc33de46f09a1ed4584ccaaf12a28623, type: 2}
+  isStackable: 0
+  maxStackNumber: 1
+  description: Just a cube
+  variety: 2
+  rarity: 0
+  buy_Price:
+  - currency: {fileID: 11400000, guid: 5f12ed0a62a332a40a42edbc60709d63, type: 2}
+    amount: 0
+  - currency: {fileID: 11400000, guid: 62a53d33c4fe1f64b83e22fbb921327e, type: 2}
+    amount: 1
+  sell_Price:
+  - currency: {fileID: 11400000, guid: 5f12ed0a62a332a40a42edbc60709d63, type: 2}
+    amount: 0
+  - currency: {fileID: 11400000, guid: 62a53d33c4fe1f64b83e22fbb921327e, type: 2}
+    amount: 1
+  clipOnUse: {fileID: 0}
+  playClipTimes: 0
+  coolDown: 0
+  consumableItemType: 0
+  consumableItemAttributes: []
+  useOnPickUp: 0
+  CDAllThisWhenUse: 0
+  CDAllConsumbleWhenUse: 0
+  equipmentPart: 0
+  equipmentItemAttributes: []

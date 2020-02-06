@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6525604372320491870
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6525604372320491868}
+  - component: {fileID: 6525604372320491871}
+  m_Layer: 0
+  m_Name: RandomMapTypeC
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6525604372320491868
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6525604372320491870}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3360.0645, y: 2305.0242, z: -1949.115}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6525604372320491871
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6525604372320491870}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8367135f10274ad090c81df7e7de6aba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wallTile: {fileID: 11400000, guid: 666d8084e84796041a4357a9341b29a1, type: 2}
+  wallTopTile: {fileID: 11400000, guid: d854c8a59ea08f640b18be6d84f1e1c6, type: 2}
+  roadTile: {fileID: 11400000, guid: 447542da6a140b14abcedefb03c8b81d, type: 2}
+  tree:
+  - {fileID: 1186378106354762, guid: 5f02d1d23c93093449240ac8e3f33548, type: 3}
+  enemies:
+  - {fileID: 1919761217627942, guid: be55bad8a0332fc4a85da6280a7bc11b, type: 3}
+  - {fileID: 1190784207963444, guid: 61ed5369223236843a1d4fd1e65adac6, type: 3}
+  wallTopRandom:
+  - {fileID: 11400000, guid: a12e2b353737bef4498874a2e7042465, type: 2}
+  - {fileID: 11400000, guid: d11beff6219fd234c9a1badda9bde58f, type: 2}
+  - {fileID: 11400000, guid: 1d6c1ab60fd11684297c72ae31577b27, type: 2}
+  wallTileRandom:
+  - {fileID: 11400000, guid: 039383bef02a3a8438cc37d2c1941859, type: 2}
+  - {fileID: 11400000, guid: a50e9b3e5341b0f4e9e7b5e87a66d931, type: 2}
+  - {fileID: 11400000, guid: 92e7dafe4b1fd7744a5981e82ffe2913, type: 2}
+  - {fileID: 11400000, guid: 086a5434e1db5a14dbb6b0c461edda58, type: 2}
+  - {fileID: 11400000, guid: 0f43d62b462abdb46ac80d17b90250b1, type: 2}
+  - {fileID: 11400000, guid: 077f557c10538f14dadb56abfc319806, type: 2}
+  roadFloorTileRandom:
+  - {fileID: 11400000, guid: 961de82fe40b79d43b8dc8be6f5d1080, type: 2}
+  - {fileID: 11400000, guid: f945098984d4c41408999fed2c8475d3, type: 2}
+  - {fileID: 11400000, guid: 6770c3a0a48e47147a4572aee2f6ea87, type: 2}
+  - {fileID: 11400000, guid: 3469f75fbfda1da43bd52fa466a3b941, type: 2}
+  - {fileID: 11400000, guid: 7024ce9a99ee97e458a60ef687f85b38, type: 2}

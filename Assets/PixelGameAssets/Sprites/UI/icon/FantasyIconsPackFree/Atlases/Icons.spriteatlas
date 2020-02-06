@@ -1,0 +1,216 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Icons
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 100
+      maxTextureSize: 2048
+      textureCompression: 2
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 1
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 2
+      m_CompressionQuality: 100
+      m_CrunchedCompression: 1
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 701f8d3b6112e8d4c80ce90b73cd22d4, type: 3}
+    totalSpriteSurfaceArea: 3022848
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: ba277220d79b8d34a99a39932ea08859, type: 3}
+  - {fileID: 21300000, guid: 4eaffc20e3e780a4aaab6483f5d6190d, type: 3}
+  - {fileID: 21300000, guid: 6d1598d0e92b2e24c83ccb8f9ed26329, type: 3}
+  - {fileID: 21300000, guid: f84b6dd0347a94f4a9a69ac911fc1f9d, type: 3}
+  - {fileID: 21300000, guid: d8895a01c025a76418de5bf40b0cd906, type: 3}
+  - {fileID: 21300000, guid: ae3208216b9856e408dcff020513465f, type: 3}
+  - {fileID: 21300000, guid: 040271313814bd5488473dd46dc93cba, type: 3}
+  - {fileID: 21300000, guid: f66c057114b8725409847a8a8e83a75b, type: 3}
+  - {fileID: 21300000, guid: 139539719e94c5f43aa744cfda6d56b6, type: 3}
+  - {fileID: 21300000, guid: 0e1e758107246b04ba166904df626584, type: 3}
+  - {fileID: 21300000, guid: 41f927d1a0d01d74b8f392dc9d00a066, type: 3}
+  - {fileID: 21300000, guid: 108c63f11f514ee4baf0ae61ed6ee363, type: 3}
+  - {fileID: 21300000, guid: c60f7cf1ed80f5840ac51195ae687e71, type: 3}
+  - {fileID: 21300000, guid: 058bff32ace94c34cae0a8f6914f87a5, type: 3}
+  - {fileID: 21300000, guid: 7250044204fe1ee459fac663e7cdb93a, type: 3}
+  - {fileID: 21300000, guid: 268837527922b5146be51e6393fef2e5, type: 3}
+  - {fileID: 21300000, guid: 74d98392ef5517b4086d34ad893d9eb8, type: 3}
+  - {fileID: 21300000, guid: 8f2017239720fdc4399735f620d45e1b, type: 3}
+  - {fileID: 21300000, guid: b73cf7a3f87502a41b4c9a691498248e, type: 3}
+  - {fileID: 21300000, guid: 16c1bab30244e46438e1968dda34bd70, type: 3}
+  - {fileID: 21300000, guid: 9b818d245957cad458722c2d2aff7ed7, type: 3}
+  - {fileID: 21300000, guid: 83ab2434deb511a4b8aabd90f5d9de60, type: 3}
+  - {fileID: 21300000, guid: e76b30749d6bac4489c3ccf1ccb2c8fc, type: 3}
+  - {fileID: 21300000, guid: b80babc45dc354c4684066b6c19565ad, type: 3}
+  - {fileID: 21300000, guid: 668df6f48e59c80439fa587624e5a84d, type: 3}
+  - {fileID: 21300000, guid: 98ceb165e895b7f47ab880e0d1c64104, type: 3}
+  - {fileID: 21300000, guid: d6a5be75ee20dd94682b602816b88b5d, type: 3}
+  - {fileID: 21300000, guid: 69b6fac54bf33d94f8b56a037beeb7bf, type: 3}
+  - {fileID: 21300000, guid: e51bd346f24ab2c4783211b98bfb62a4, type: 3}
+  - {fileID: 21300000, guid: e3e0bf567e013164bab2b74e80ae37bf, type: 3}
+  - {fileID: 21300000, guid: b523df5621b5d9743b2ba49e01570b6f, type: 3}
+  - {fileID: 21300000, guid: 490de5b67a54a914088038c8d2c8282f, type: 3}
+  - {fileID: 21300000, guid: 4ec5e8e694bc3334db32778bebfd01e7, type: 3}
+  - {fileID: 21300000, guid: 59404f171a3d5694fa1650a8c37fc39f, type: 3}
+  - {fileID: 21300000, guid: 136c9f47fc323df4ba024baf251f04b6, type: 3}
+  - {fileID: 21300000, guid: b0ab5287685813a41bacfc4ec20baac6, type: 3}
+  - {fileID: 21300000, guid: 8661c2c7e325a33438f06b02458fd199, type: 3}
+  - {fileID: 21300000, guid: 86add05857f650b42a52e52de2d6dc3b, type: 3}
+  - {fileID: 21300000, guid: ed5c3e58951bf304c943dcb7430c42c7, type: 3}
+  - {fileID: 21300000, guid: f47fa1a8e8c158a42b11fd455234581d, type: 3}
+  - {fileID: 21300000, guid: 2d260bd85e5c45747aa86cf3c0975908, type: 3}
+  - {fileID: 21300000, guid: af838e5920baaaa4cbb24dab99c4458d, type: 3}
+  - {fileID: 21300000, guid: 8b92f169cf922fd4485c0cd34fe1a2d3, type: 3}
+  - {fileID: 21300000, guid: 11fcd679d2a042349b976f4aadbf9edb, type: 3}
+  - {fileID: 21300000, guid: 7eaf3bc9665b03740be9349771cf2c9a, type: 3}
+  - {fileID: 21300000, guid: 8bcb07d9c2c4c484caf61c33f48e3dd8, type: 3}
+  - {fileID: 21300000, guid: be57094a84846274f8365205b4fdec95, type: 3}
+  - {fileID: 21300000, guid: e85a4f4a40f9cca409993136dabd3bcc, type: 3}
+  - {fileID: 21300000, guid: fdf9505acc4050143af4484d372ca54a, type: 3}
+  - {fileID: 21300000, guid: 0c6de69acca756c409be4810a8510ac5, type: 3}
+  - {fileID: 21300000, guid: 22b707ba995056540acdd8a73724a22a, type: 3}
+  - {fileID: 21300000, guid: 47684eba410fd484e912dee508527404, type: 3}
+  - {fileID: 21300000, guid: f683841be7595e6438b943365a4d6279, type: 3}
+  - {fileID: 21300000, guid: dbd0e81ba08974441932c1b53abce311, type: 3}
+  - {fileID: 21300000, guid: 86f4a4ab62631d9449621dff11e762f5, type: 3}
+  - {fileID: 21300000, guid: 9f1252bb6b24d25438ebfc585441b5b2, type: 3}
+  - {fileID: 21300000, guid: 078df9cba8edbcb4ca3cbe7c1fae7409, type: 3}
+  - {fileID: 21300000, guid: b3379dfbd47568344bccd644c3bdf8ee, type: 3}
+  - {fileID: 21300000, guid: 0d2df74cd40ea7b4cb686dda25352114, type: 3}
+  - {fileID: 21300000, guid: af35bccc073349845a7c2c502262e5d0, type: 3}
+  - {fileID: 21300000, guid: d459b9fcda543454dafcae327ebe0a42, type: 3}
+  - {fileID: 21300000, guid: 19576ffc906f90b4a80790bea1c14ffa, type: 3}
+  - {fileID: 21300000, guid: 9de3870da164c554eae556ecc39c6250, type: 3}
+  - {fileID: 21300000, guid: f594bf2df7f5c264f96b77d4c5537436, type: 3}
+  - {fileID: 21300000, guid: db49433d40e53614492908d3cb323f14, type: 3}
+  - {fileID: 21300000, guid: 683e7d9d6853b8a4b9dbe41a0be44b5c, type: 3}
+  - {fileID: 21300000, guid: a83c32cdf9c1bf14dbfb441debb08e25, type: 3}
+  - {fileID: 21300000, guid: 361f2ddd34d85634cba101440334a124, type: 3}
+  - {fileID: 21300000, guid: 34624a0e889b4f4418d79e7daefccd72, type: 3}
+  - {fileID: 21300000, guid: f2ee8b2ec5ed98544a798f4af5fa790c, type: 3}
+  - {fileID: 21300000, guid: d9ec223ed231bbd4d9347cf8c8c102d5, type: 3}
+  - {fileID: 21300000, guid: 7ee4135e2de360e4390c496248294924, type: 3}
+  - {fileID: 21300000, guid: c2d1708e95fe32b46b5aa67592065c9b, type: 3}
+  - {fileID: 21300000, guid: b2634b9e26cf5724eb4ed456b37f096a, type: 3}
+  - {fileID: 21300000, guid: 53e5b1aea071ba648b23bb563877f54d, type: 3}
+  - {fileID: 21300000, guid: ef419fce13384654bab5cbf27232d640, type: 3}
+  - {fileID: 21300000, guid: 7c0a062fdc5ea0149a863d771811d51e, type: 3}
+  - {fileID: 21300000, guid: 5bfb766ff8d9482479248b2c48378889, type: 3}
+  - {fileID: 21300000, guid: 6b5d537fb6d2b8b4abee9de72ec7c504, type: 3}
+  - {fileID: 21300000, guid: a2bcc88f94981eb4d8eceb8d65771717, type: 3}
+  - {fileID: 21300000, guid: fa697c9f9ee44564fa6d5414bd536b3e, type: 3}
+  - {fileID: 21300000, guid: 0f1303cfff6593747a97f9c964728649, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Apple (Type=Supplies, Collection=Pro)
+  - SteelAxe (Type=Weapon, Collection=Basic, Tags=Axe&2H)
+  - VikingAxe3 (Type=Weapon, Collection=Vikings, Tags=Axe&1H)
+  - SilverRing
+  - GateCrusher (Type=Weapon, Collection=Pro, Tags=Hammer&2H)
+  - ManticoreArmor (Type=Boots, Collection=Pro)
+  - HunterBow (Type=Arrow, Collection=Basic)
+  - MagicGoldenRing
+  - DestroyerAxe (Type=Weapon, Collection=SpellMasters, Tags=Axe&2H)
+  - ManticoreArmor (Type=Gloves, Collection=Pro)
+  - ManticoreArmor (Type=Armor, Collection=Pro)
+  - RedwoodBow (Type=Weapon, Collection=AbandonedWorkshop, Tags=Bow&2H)
+  - BalancedSword [Paint] (Type=Weapon, Collection=Knights, Tags=Sword&1H)
+  - GreyKnight (Type=Gloves, Collection=SpellMasters)
+  - SwampWarriorSpear (Type=Weapon, Collection=SwampLords, Tags=Spear&1H)
+  - WyvernHornBow (Type=Weapon, Collection=AbandonedWorkshop, Tags=Bow&2H)
+  - BattleBow (Type=Arrow, Collection=Basic)
+  - SteelTowerShield (Type=Shield, Collection=Basic)
+  - KnightHelm [Paint] (Type=Helmet, Collection=Basic)
+  - GreyKnight (Type=Boots, Collection=SpellMasters)
+  - WoodenShield2 (Type=Shield, Collection=Vikings)
+  - HawkHelm (Type=Helmet, Collection=Basic)
+  - BronzeRing
+  - BattleguardHelm (Type=Helmet, Collection=AbandonedWorkshop)
+  - BattleBow (Type=Weapon, Collection=Basic, Tags=Bow&2H)
+  - WaterAdeptWand1 (Type=Weapon, Collection=Basic, Tags=Wand&1H)
+  - BanditLightArmor [Paint] (Type=Gloves, Collection=Basic)
+  - DarkMountain [Paint] (Type=Helmet, Collection=Thrones)
+  - OldPoleaxe (Type=Weapon, Collection=Basic, Tags=Axe&2H)
+  - ScoutHelm (Type=Helmet, Collection=Basic)
+  - Cheese (Type=Supplies, Collection=Pro)
+  - SharpenedInfantrySword (Type=Weapon, Collection=AbandonedWorkshop, Tags=Sword&1H)
+  - BattleguardArmor (Type=Armor, Collection=AbandonedWorkshop)
+  - DarkMountain (Type=Boots, Collection=Thrones)
+  - HardwoodWand (Type=Weapon, Collection=Basic, Tags=Wand&1H)
+  - TwoHandedWoodenMace (Type=Weapon, Collection=Basic, Tags=Hammer&2H)
+  - GoldenRing
+  - HunterKnife [Paint] (Type=Weapon, Collection=Basic, Tags=Dagger&1H)
+  - HunterBow (Type=Weapon, Collection=Basic, Tags=Bow&2H)
+  - WoodenClub (Type=Weapon, Collection=Pro, Tags=Hammer&1H)
+  - DarkSword (Type=Weapon, Collection=Samurai, Tags=Sword&2H)
+  - VikingShortBow (Type=Weapon, Collection=Vikings, Tags=Bow&2H)
+  - WyvernHornBow (Type=Arrow, Collection=AbandonedWorkshop)
+  - SandHealerStaff1 (Type=Weapon, Collection=SandLords, Tags=Staff&1H)
+  - WoodcutterAxe (Type=Weapon, Collection=Basic, Tags=Axe&1H)
+  - MagicSilverRing
+  - BanditLightArmor [Paint] (Type=Boots, Collection=Basic)
+  - BattleguardArmor (Type=Gloves, Collection=AbandonedWorkshop)
+  - DarkMountain (Type=Armor, Collection=Thrones)
+  - WoodenShield (Type=Shield, Collection=Basic)
+  - MarauderBow (Type=Arrow, Collection=SpellMasters)
+  - Scout [Paint] (Type=Gloves, Collection=Basic)
+  - ManticoreHelmet (Type=Helmet, Collection=Pro)
+  - ManticoreSword (Type=Weapon, Collection=Pro, Tags=Sword&1H)
+  - LongHammer (Type=Weapon, Collection=Pro, Tags=Hammer&2H)
+  - WarHammer (Type=Weapon, Collection=Basic, Tags=Hammer&1H)
+  - FreeFolkAxe (Type=Weapon, Collection=Thrones, Tags=Axe&1H)
+  - BerserkAxe (Type=Weapon, Collection=SpellMasters, Tags=Axe&2H)
+  - GladiatorShield (Type=Shield, Collection=SpellMasters)
+  - Grog (Type=Supplies, Collection=Pro)
+  - BronzeDagger (Type=Weapon, Collection=Pro, Tags=Dagger&1H)
+  - SmallPotion (Type=Supplies, Collection=Basic)
+  - WoodenBuckler (Type=Shield, Collection=Basic)
+  - Katana1 [Paint] (Type=Weapon, Collection=Samurai, Tags=Sword&1H)
+  - AssassinDagger [Paint] (Type=Weapon, Collection=SpellMasters, Tags=Dagger&Sword&1H)
+  - GreyKnight (Type=Armor, Collection=SpellMasters)
+  - BattleguardArmor (Type=Boots, Collection=AbandonedWorkshop)
+  - MilitiamanShield (Type=Shield, Collection=Basic)
+  - Scout [Paint] (Type=Armor, Collection=Basic)
+  - Harpoon (Type=Weapon, Collection=Pro, Tags=Spear&2H)
+  - ChickenLeg (Type=Supplies, Collection=Pro)
+  - HandBomb (Type=Supplies, Collection=Pro)
+  - VikingShortBow (Type=Arrow, Collection=Vikings)
+  - RedwoodBow (Type=Arrow, Collection=AbandonedWorkshop)
+  - MarauderBow (Type=Weapon, Collection=SpellMasters, Tags=Bow&2H)
+  - BanditLightArmor [Paint] (Type=Armor, Collection=Basic)
+  - Scout [Paint] (Type=Boots, Collection=Basic)
+  - AriostinGreatsword (Type=Weapon, Collection=AbandonedWorkshop, Tags=Sword&2H)
+  - DarkMountain (Type=Gloves, Collection=Thrones)
+  - ButcherKnife (Type=Weapon, Collection=AbandonedWorkshop, Tags=Sword&2H)
+  - MountainSword [Paint] (Type=Weapon, Collection=Thrones, Tags=Sword&2H)
+  - MagicBronzeRing
+  m_Tag: Icons
+  m_IsVariant: 0

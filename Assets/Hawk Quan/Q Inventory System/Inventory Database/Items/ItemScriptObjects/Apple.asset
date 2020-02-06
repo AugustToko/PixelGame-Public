@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 720f6889561ad064583407d6b1caf8ed, type: 3}
+  m_Name: Apple
+  m_EditorClassIdentifier: 
+  itemName: Apple
+  ID: 1
+  icon: {fileID: 21300288, guid: bddecc020f6bf0445b97e3d1be62d39c, type: 3}
+  m_object: {fileID: 1531821212096490, guid: 834b4dde2f8ebb04bbfa49d73c1354a5, type: 2}
+  isStackable: 1
+  maxStackNumber: 10
+  description: great
+  variety: 0
+  rarity: 0
+  buy_Price:
+  - currency: {fileID: 11400000, guid: 5f12ed0a62a332a40a42edbc60709d63, type: 2}
+    amount: 0
+  - currency: {fileID: 11400000, guid: 62a53d33c4fe1f64b83e22fbb921327e, type: 2}
+    amount: 2
+  sell_Price:
+  - currency: {fileID: 11400000, guid: 5f12ed0a62a332a40a42edbc60709d63, type: 2}
+    amount: 0
+  - currency: {fileID: 11400000, guid: 62a53d33c4fe1f64b83e22fbb921327e, type: 2}
+    amount: 1
+  clipOnUse: {fileID: 8300000, guid: 92918a957a10fc54b88eee7439d948f4, type: 3}
+  playClipTimes: 1
+  coolDown: 0
+  consumableItemType: 0
+  consumableItemAttributes:
+  - consumableItemAttribute: {fileID: 11400000, guid: e4b3c5835d18ac94697e4dbdcc28a824,
+      type: 2}
+    effectType: 0
+    value: 5
+  useOnPickUp: 0
+  CDAllThisWhenUse: 0
+  CDAllConsumbleWhenUse: 0
+  equipmentPart: 0
+  equipmentItemAttributes: []

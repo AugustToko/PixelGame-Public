@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &9158963313174760851
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7010540839561021698}
+  - component: {fileID: -5167977305711157930}
+  m_Layer: 0
+  m_Name: Sword4Player
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7010540839561021698
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9158963313174760851}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -5.7998753, y: 19.371666, z: -26.71511}
+  m_LocalScale: {x: 1.25, y: 1.25, z: 1.25}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-5167977305711157930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9158963313174760851}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e131afc6843847c7a5fb1a5d90a32a43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weaponName: None
+  weaponType: 0
+  weaponPickup: {fileID: 0}
+  cooldown: 0.1
+  randomAngle: 20
+  recoilForce: 10
+  weaponUiIcon: {fileID: 0}
+  zRotationOffSet: 0
+  zOrderComponent: {fileID: 0}
+  offsetNormal: {x: 0, y: 0}
+  soundFxAtk: 
+  components: []
+  spriteRenderer: {fileID: 0}
+  meleeFrame: {fileID: 0}
+  Collider2D: {fileID: 0}
+  damage: 

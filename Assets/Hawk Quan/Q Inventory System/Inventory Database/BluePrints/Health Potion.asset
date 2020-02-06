@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a387c30a47e70bf4c83694a1d7c32259, type: 3}
+  m_Name: Health Potion
+  m_EditorClassIdentifier: 
+  bluePrintName: Health Potion
+  category: {fileID: 11400000, guid: 2c6e5c58edc019b489e109165996a5b3, type: 2}
+  icon: {fileID: 21300044, guid: 9c2c642c47b2fc344ab143e21aedaca9, type: 3}
+  targetItem: {fileID: 11400000, guid: db9a8871c144570419dfcf22658ee2d8, type: 2}
+  craftingAmount: 1
+  ingredients:
+  - ingredient: {fileID: 11400000, guid: b02490634a0291940b04cbe484315e12, type: 2}
+    amount: 2
+  - ingredient: {fileID: 11400000, guid: b60f3fa2cdb34634a82e4796d2727201, type: 2}
+    amount: 1
+  craftingPrices:
+  - currency: {fileID: 11400000, guid: 5f12ed0a62a332a40a42edbc60709d63, type: 2}
+    amount: 0
+  - currency: {fileID: 11400000, guid: 62a53d33c4fe1f64b83e22fbb921327e, type: 2}
+    amount: 5
+  successChance: 1
+  craftingTime: 2
+  CDAllWhenCrafting: 1
+  moveAfterCrafting: 1
