@@ -1,6 +1,6 @@
 # PixelGame
 Rogue-Lite Game like MOBA  
-**Private 项目, 请注意保密性**
+~~**Private 项目, 请注意保密性**~~
 
 [itch](https://gikode.itch.io/legendarist)
 
