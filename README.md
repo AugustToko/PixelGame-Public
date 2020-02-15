@@ -1,3 +1,5 @@
+![Logo](./UI/Logo-Landscape.png)
+
 # PixelGame
 Rogue-Lite Game like MOBA  
 ~~**Private 项目, 请注意保密性**~~
