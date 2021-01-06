@@ -8,8 +8,21 @@
 Rogue-Lite Game like MOBA  
 ~~**Private 项目, 请注意保密性**~~
 
-[itch](https://gikode.itch.io/legendarist)
+### 演示视频
+https://www.bilibili.com/video/BV15E411i7Vi
 
+### 页面
+[itch](https://gikode.itch.io/legendarist)
+[indienova](https://indienova.com/g/Legendarist)
+
+### 截图
+<img src="https://hive.indienova.com/farm/gameimg/2019/11/img-2862120-1ix9JS.png_h200" hspace="10" width="480">
+<img src="https://hive.indienova.com/farm/gameimg/2019/11/img-2862120-csZcXI.png_webp" hspace="10" width="480">
+<img src="https://hive.indienova.com/farm/gameimg/2019/11/img-2862218-c5joY4.png_h200" hspace="10" width="480">
+<img src="https://hive.indienova.com/farm/gameimg/2019/11/img-2862218-flEQLb.png_webp" hspace="10" width="480">
+<img src="https://hive.indienova.com/farm/gameimg/2019/11/img-2862218-c5joY4.png_webp" hspace="10" width="480">
+
+### 帮助
 [Git & Github 使用教程](https://www.liaoxuefeng.com/wiki/896043488029600) 
 
 ### 合作者
