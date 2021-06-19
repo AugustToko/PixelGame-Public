@@ -63,12 +63,6 @@ https://www.bilibili.com/video/BV15E411i7Vi
 > 5. commit 必须签名
 > 6. 请尽量使用 `GPG` 密钥而非 `SSH`
 
-### 问题素材
-> ...
-
-### 无版权素材列表
-> ...
-
 ### 第三方(开源)库
 > 1. **PixelGame/Assets/PixelGameAssets/Third-Party/Joystick Pack**
 > 2. **PixelGame/Assets/PixelGameAssets/Third-Party/TextMesh Pro**
@@ -77,11 +71,6 @@ https://www.bilibili.com/video/BV15E411i7Vi
 > 5. **PixelGame/Assets/PixelGameAssets/Third-Party/Exporter**
 > 6. **PixelGame/Assets/PixelGameAssets/Third-Party/Ocias**
 > 7. 待完善
-
-### 待处理代码
-> 1. PixelGame/Assets/PixelGameAssets/Scripts/Camera/PixelCameraFollower.cs
-> 2. PixelGame/Assets/PixelGameAssets/Scripts/Core/Actor.cs
-> 3. ...
 
 ### 第三方库
 > 1. PixelGame/Assets/PixelGameAssets/Third-Party
@@ -93,6 +82,3 @@ https://www.bilibili.com/video/BV15E411i7Vi
 >> 爱给网  
 >> freeSounds
 > 2. 待完善
-
-### Issue
->1. 待完善
